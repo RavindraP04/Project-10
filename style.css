@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/assets/retro-living-room-interior-design.jpg);
+    background-size: cover;
+    /* overflow-x: hidden; */
+    background-repeat: no-repeat;
+}
+
+/* Whole Navbar top_section */
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 4%;
+}
+
+/* Left Part of Navbar (Logo)*/
+.left-logo{
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Right Part of Navbar */
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Hamburger Menu */
+.navbar i{
+    display: none;
+}
+.nav-items li{
+    margin-right: 50px;
+    list-style-type: none;
+}
+.nav-items li a{
+    font-family: "Poppins";
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+.nav-items p{
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #ffffff;
+}
+.nav-items img{
+    height: 30px;
+}
+.nav-items{
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 25px;   
+}
+
+
+/* Hero_section */  
+.heading{
+    margin: 0 7%;
+    margin-top: 100px;
+    font-family: "Source Sans Pro";
+    color: #ffffff;
+    font-size: 68px;
+    font-weight: 700;
+    word-spacing: 4px;
+    line-height: 86px;
+}
+.learn-more{
+    color: #ffffff;
+    background: transparent;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    border: 3px solid #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 18px 40px;
+    border-radius: 40px;
+    margin-top: 65px;
+    margin-left: 7.5%;
+    cursor: pointer;
+}
+.learn-more:hover{
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffffd8 100%);
+    color: #000;
+    border: none;
+}
+
+/* transparent boxe_1 */
+.box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    top: 200px;
+}
+.line-circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 70px;
+}
+.puzzle{
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.185);
+    width: 240px;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 28px;
+}
+.puzzle p{
+    margin-top: -40px;
+}
+.circle{
+    border: 8px solid #ffffff;
+    width: 1px;
+    background-color: #ffffff;
+    height: 1px;
+    border-radius: 50%;
+}
+.puzzle-line{
+    border-left: 1px solid #ffffff;
+    height: 70px;
+}
+
+
+/* transparent boxe_2 */
+.box-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 60px;
+    right: 0px;
+    margin-right: 350px;
+}
+.line-circle-2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -30px;
+}
+.bulb{
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.185);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+}
+.bulb img{
+    height: 50px;
+    padding-bottom: 15px;
+}
+.puzzle-line-2{
+    border-bottom: 1px solid #ffffff;
+    width: 70px;
+}
+@media screen and (max-width: 1120px){
+    .heading{
+        font-size: 62px;
+    }
+    .learn-more{
+        font-size: 22px;
+    }
+    .puzzle p{
+        font-size: 14px;
+    }
+    .bulb p{
+        font-size: 14px;
+    }
+    .box-1{
+        margin-right: 60px;
+    }
+    .box-2{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+    }
+}
+@media screen and (max-width: 1080px){
+    .nav-items li a,
+    .nav-items p{
+        font-size: 15px;
+    }
+    .heading{
+        font-size: 55px;
+    }
+    .learn-more{
+        font-size: 18px;
+    }
+}
+@media all and (device-width: 1280px) and (device-height: 950px){
+    .box-2{
+        position: absolute;
+        top: 320px;
+    }
+    body{
+        background-repeat: repeat;
+    }
+}
+
+@media all and (device-width: 1024px) and (device-height: 1366px) {
+    .box-2{
+        position: absolute;
+        top: 32px;
+    }
+}
+@media screen and (max-width: 1070px){
+    body{
+        background-image: url(/assets/olena-sergienko-DUDbViuozxg-unsplash.jpg);
+        background-repeat: repeat;
+    }
+}
+@media screen and (max-width: 950px){
+    .nav-items{
+        display: none;
+    }
+    .navbar i{
+        display: flex;
+        color: #ffffff;
+        justify-content: center;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 918px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 7%;
+    }
+    .heading{
+        font-size: 68px;
+    }
+    .learn-more{
+        font-size: 24px;
+    }
+    .box-1{
+        margin-top: 220px;
+        margin-right: 35px;
+    }
+    .puzzle{
+        padding-right: 10px;
+    }
+    .puzzle img{
+        height: 120px;
+    }
+    .box-2{
+        margin-left: -550px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 884px){
+    main{
+        margin-top: -50px;
+        align-items: flex-start;
+    }
+    .heading{
+        font-size: 62px;
+    }
+    .learn-more{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 826px){
+    .heading{
+        font-size: 58px;
+    }
+    .learn-more{
+        font-size: 20px;
+    }
+    .box-2{
+        margin-left: -350px;
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 652px){
+    .heading{
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .learn-more{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 652px){
+    .box-2{
+        margin-left: -20px;
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width: 562px){
+    .heading{
+        font-size: 40px;
+        line-height: 65px;
+    }
+    .learn-more{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    main{
+        align-items: center;
+    }
+    .box-1{
+        margin-right: 150px;
+    }
+    .puzzle{
+        background-color: rgba(255, 255, 255, 0.26);
+    }
+    .box-1{
+        display: block;
+    }
+}
+@media screen and (max-width: 454px){
+    body{
+        padding-bottom: 20px;
+    }
+    .heading{
+        font-size: 30px;
+        line-height: 40px;
+        margin-left: 60px;
+    }
+    .learn-more{
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .box-1{
+        margin-right: 50px;
+    }
+    .left-logo{
+        font-size: 25px;
+    }
+    .puzzle p{
+        font-size: 13px;
+    }
+    .puzzle img{
+        height: 110px;
+    }
+    .box-2{
+        margin-top: 280px;
+    }
+}

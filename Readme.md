@@ -13,7 +13,7 @@
 1. CSS Flexbox
 2. Media Query  ✨
 
-[[Click here to view Live 🚀]](https://rp-project-9.netlify.app/ "Law Home Page")
+[[Click here to view Live 🚀]](https://rp-project-10.netlify.app/ "Law Home Page")
 
 ## Screenshot of the Project 👇
 ![](./assets/Interior%20Design%20landing%20page.png)

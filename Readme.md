@@ -1,5 +1,5 @@
 ![Badge](https://img.shields.io/badge/Project--10-Home--Page-green)
-# Developer Landing Page 🧑‍💻
+# Interior Design Landing Page 🧑‍💻
 
 ### ✨Hey, I am **Ravindra**, 
 ### ✨This is  my 10th live Project which is ![badge](https://img.shields.io/badge/Mobile---Responsive--Page-Red)
